@@ -1,0 +1,18 @@
+{
+  "name": "node-opentui-hello-world-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@opentui/core": "^0.0.5",
+    "@opentui/solid": "^0.0.4"
+  },
+  "pnpm": {
+    "overrides": {
+      "@opentui/core": "npm:@anomalyco-opentui/core@0.0.1",
+      "@opentui/solid": "npm:@anomalyco-opentui/solid@0.0.1"
+    }
+  }
+}
