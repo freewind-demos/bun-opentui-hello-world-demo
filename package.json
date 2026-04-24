@@ -3,16 +3,14 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "dependencies": {
-    "@opentui/core": "^0.0.5",
-    "@opentui/solid": "^0.0.4"
+    "@opentui/core": "^0.1.103"
   },
-  "pnpm": {
-    "overrides": {
-      "@opentui/core": "npm:@anomalyco-opentui/core@0.0.1",
-      "@opentui/solid": "npm:@anomalyco-opentui/solid@0.0.1"
-    }
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "typescript": "^5.9.3"
   }
 }
